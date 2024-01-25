@@ -19,7 +19,7 @@ export const Users = () => {
   const toggle = () => setModal(!modal);
   const [user, setUser] = useState({});
   const roles = ["user", "author", "moderator"];
-  
+
   const handleAction = () => {
     if (user.type === "delete") {
       dispatch(startDeleteUsers(user.data._id));
@@ -44,7 +44,7 @@ export const Users = () => {
           </tr>
         </thead>
         <tbody>
-          {users
+          {users.length>0?users
             ?.filter((e) => e.role !== "admin")
             .map((e) => (
               <tr key={e._id}>
@@ -97,7 +97,7 @@ export const Users = () => {
                   </div>
                 </td>
               </tr>
-            ))}
+            )):<div>No Users Yet</div>}
         </tbody>
       </table>
       {!_.isEmpty(user.type) && (

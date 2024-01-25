@@ -18,12 +18,13 @@ export const Home = () => {
     <>
       <h1>Home</h1>
       {approvedBlogs
+        .filter((e) => e.status === "approved").length>0?approvedBlogs
         .filter((e) => e.status === "approved")
         .map((e) => (
           <li key={e._id}>
             <Link to={`/blogs/${e._id}`}>{e.title}</Link>
           </li>
-        ))}
+        )):<div>No Blogs Published Yet</div>}
     </>
   );
 };
