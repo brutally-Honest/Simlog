@@ -1,0 +1,145 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+body{
+  background-color:black; 
+  color: #caccf4;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin-top: 3px;
+}
+
+button {
+  border-radius: 4px;
+  border: 2px solid transparent;
+  padding:5px 7px;
+  margin: 5px 5px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+input{
+  padding: 5px;
+  margin:2px 5px;
+  width: full;
+}
+li{
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+.inputErrors{
+  color:rgb(255, 0, 0);
+  height: 8px;
+}
+
+.loginForm{
+  padding: 40px;
+  border-radius: 4px;
+  border: 1.5px solid;
+  /* width: 300px; */
+}
+
+.registerForm{
+  padding:30px;
+  border-radius: 4px;
+  border:1px solid white;
+  /* width:max-content */
+}
+.loginBtn{
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: medium;
+  font-weight: 600;
+  background-color: #535bf2;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.loginBtn:hover{
+  background-color: #6268db;
+}
+.jc{
+  display: flex;
+  justify-content: center;
+}
+.lh{
+  font-size: 2.2em;
+  line-height: 1.1;
+  margin: 10px 0;
+}
+.px{
+  padding: 0 10px;
+}
+.table{
+  width: max-content;
+  margin: 10px 20px ;
+}
+
+.colorModal{
+  color:black ;
+}
+.blogSelect{
+  margin: 5px 20px;
+}
+.green{
+  color: #00b250;
+  text-decoration: underline;
+}
+.commentBox{
+  display: flex;
+  margin:10px 5px;
+}
+.blogInput{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 0 10px;
+}
+.blogTextArea{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  padding: 0 10px;
+}
+.blogBtn{
+  margin:0 10px;
+}
+.selectRole{
+  padding:6px 2px;
+  margin:7px 5px;
+  border-radius: 4px;
+  border:none;
+  width: 120px;
+  font-weight: 600;
+}
