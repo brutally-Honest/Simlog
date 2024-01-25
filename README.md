@@ -44,7 +44,7 @@ Simlog is a blogging platform  which offers a user-friendly interface with featu
 
 ## Getting Started
 1. Install MongoDB 
-2. git clone https://github.com/brutally-Honest/Simlog.git
+2. `git clone https://github.com/brutally-Honest/Simlog.git`
 3. `npm install` in both server directory and client directory
 4. `npm start` in server directory and `npm run dev` in client directory
 
