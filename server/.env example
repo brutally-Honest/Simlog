@@ -1,0 +1,4 @@
+JWT_SECRET=your jwt secket key
+PORT=your backend server port
+DB_NAME=db name
+URL=mongodb url
