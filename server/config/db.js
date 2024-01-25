@@ -4,7 +4,7 @@ const configureDb=async() =>{
 
     try{
         const url =process.env.URL||"mongodb://127.0.0.1:27017"
-        const dbName = process.env.DB_NAME||"test-app"
+        const dbName = process.env.DB_NAME||"Simblog"
         await mongoose.connect(`${url}/${dbName}`)
         console.log("Connected to -",dbName);
     }
