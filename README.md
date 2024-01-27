@@ -1,4 +1,4 @@
-# Simlog
+# Simlog (Simple Blog)
 
 Simlog is a blogging platform  which offers a user-friendly interface with features such as dynamic navigation, blog creation, and commenting. Users can manage their own blogs and comments, while administrators handle user, blog and comment moderation through role-based controls, ensuring a secure and engaging experience.
 
