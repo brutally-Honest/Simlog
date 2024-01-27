@@ -23,7 +23,7 @@ Simlog is a blogging platform  which offers a user-friendly interface with featu
 
 3. #### <u>Author</u>
     ##### Blog Creation
-    - Can create new Blogs
+    - Can create new Blogs.
 
     ##### Blog Management
     - Edit or delete own blogs.
@@ -42,11 +42,16 @@ Simlog is a blogging platform  which offers a user-friendly interface with featu
 | User Authentication          | JWT               |
 | Server-side Validation       | Express-Validator |
 
-## Installation and Usage
-1. Install MongoDB 
-2. `git clone https://github.com/brutally-Honest/Simlog.git`
-3. `npm install` in both server directory and client directory
-4. `node index.js` in server directory and `npm run dev` in client directory
+## Getting Started
+
+### Prerequisites
+- Node.js installed on your machine
+- MongoDB database to store data
+
+### Installation and Usage
+1. `git clone https://github.com/brutally-Honest/Simlog.git`
+1. `npm install` in both server directory and client directory
+3. `node index.js` in server directory and `npm run dev` in client directory
 
 Install the dependencies and start the server.
 
